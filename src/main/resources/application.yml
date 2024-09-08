@@ -1,0 +1,4 @@
+grow-up:
+  application:
+    save:
+      file-location: items.json

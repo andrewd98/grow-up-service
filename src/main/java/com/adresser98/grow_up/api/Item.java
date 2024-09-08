@@ -4,8 +4,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
-public class TaskGroup {
+public class Item {
 
     @JsonProperty
-    private String taskGroup;
+    private String itemGroup;
+    @JsonProperty
+    private String item;
+
 }
